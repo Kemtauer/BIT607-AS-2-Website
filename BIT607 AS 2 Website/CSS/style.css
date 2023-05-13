@@ -1,0 +1,246 @@
+/*Header/ Navigation bar*/
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html body{
+    
+    height: 100%;
+    
+}
+
+main{
+    min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -200px; 
+}
+main:after {
+    content: "";
+    display: block;
+  }
+#footer, main:after {
+    height: 200px;
+} 
+
+.navbar-brand{
+    padding-left: 20px;
+}
+
+/****************Background Image*******************/
+
+
+.background-image{
+    background: url('/Images/Bg-food-2-lg.jpg') no-repeat center;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+}
+
+/**************Index Page******************/
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.center-of-page{
+    padding-top: 10%;
+    
+}
+
+#homePageText{
+    font-size: 1.5rem;
+}
+
+#Team{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/****************Reservation Page**************/
+
+.email{
+    width: 100%;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    
+}
+.name{
+    
+    width: 100%;
+}
+.resText{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/********************Menu Page*******************/
+
+.MenuItems{
+    font-size: 1.5rem;
+}
+.menu{
+    padding-right: 10%;
+}
+.SeafoodImg{
+    width: 80%;
+}
+.PorkBellyImg{
+    width: 80%;
+    padding-top: 5%;
+}
+.MiniPavlovaImg{
+    width: 80%;
+    padding-top: 30%;
+}
+
+
+
+/**********************Recipes Page*****************/
+
+.RewenaBread{
+    padding-bottom: 10%;
+    
+}
+
+.recipes{
+    background-image: url('/Images/Recipes\ bg.jpg') ;
+    height: 100%;
+    C;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+}
+
+
+/*****************Contact Us Page****************/
+
+.ContactUsContainer{
+    padding-top: 10%;
+}
+.ContactDetails{
+    justify-content: right;
+}
+
+
+
+/***************Hour Page***********************/
+
+.calendar{
+    margin-top: 5%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.calendar iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/***************Testimonials*******************/
+
+.home-testimonial{
+    position: relative;
+}
+.home-testimonial-bottom{
+    position: relative;
+    height: 360px;
+    top: 190px
+}
+.home-testimonial h3{
+    color: var(--orange);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase
+}
+.home-testimonial h2{
+    color: white;font-size: 28px;
+    font-weight: 700
+}
+.testimonial-inner{
+    position: relative;
+    top: -174px
+}
+.testimonial-pos{
+    position: relative;
+    top: 24px
+}
+.testimonial-inner .tour-desc{
+    border-radius: 5px;
+    padding: 40px
+}
+.color-grey-3{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2
+}
+.testimonial-inner img.tm-people{
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    max-width: none
+}
+.link-name{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2
+}
+.link-position{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    color: #6c83a2
+}
+
+/*****************Privacy Statment Page****************8*/
+
+.privacystatment{
+    padding-left: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+/********************Footer********************/
+
+#Privacy-link{
+    text-decoration: none;
+    color: white;
+    
+}
+#Privacy-link:hover {
+    text-decoration: underline;
+}
+
+#insta{
+    margin: 30px;
+}
+
+#footer{
+    /*
+    bottom: 0;
+    position:absolute;*/
+    height: 200px;
+    width: 100%;
+}
